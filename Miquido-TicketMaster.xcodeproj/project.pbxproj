@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		863775EE2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */; };
+		863775F02CD7CF0100D4F2D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775EF2CD7CF0100D4F2D3 /* ContentView.swift */; };
+		863775F22CD7CF0300D4F2D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863775F12CD7CF0300D4F2D3 /* Assets.xcassets */; };
+		863775F52CD7CF0300D4F2D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863775F42CD7CF0300D4F2D3 /* Preview Assets.xcassets */; };
+		863775FF2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775FE2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift */; };
+		863776092CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863776082CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift */; };
+		8637760B2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		863775FB2CD7CF0300D4F2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863775E22CD7CF0100D4F2D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863775E92CD7CF0100D4F2D3;
+			remoteInfo = "Miquido-TicketMaster";
+		};
+		863776052CD7CF0300D4F2D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 863775E22CD7CF0100D4F2D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 863775E92CD7CF0100D4F2D3;
+			remoteInfo = "Miquido-TicketMaster";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		863775EA2CD7CF0100D4F2D3 /* Miquido-TicketMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miquido-TicketMaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterApp.swift; sourceTree = "<group>"; };
+		863775EF2CD7CF0100D4F2D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		863775F12CD7CF0300D4F2D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		863775F42CD7CF0300D4F2D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		863775FA2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miquido-TicketMasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863775FE2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterTests.swift; sourceTree = "<group>"; };
+		863776042CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miquido-TicketMasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		863776082CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterUITests.swift; sourceTree = "<group>"; };
+		8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		863775E72CD7CF0100D4F2D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863775F72CD7CF0300D4F2D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863776012CD7CF0300D4F2D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		863775E12CD7CF0100D4F2D3 = {
+			isa = PBXGroup;
+			children = (
+				863775EC2CD7CF0100D4F2D3 /* Miquido-TicketMaster */,
+				863775FD2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests */,
+				863776072CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests */,
+				863775EB2CD7CF0100D4F2D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		863775EB2CD7CF0100D4F2D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				863775EA2CD7CF0100D4F2D3 /* Miquido-TicketMaster.app */,
+				863775FA2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests.xctest */,
+				863776042CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		863775EC2CD7CF0100D4F2D3 /* Miquido-TicketMaster */ = {
+			isa = PBXGroup;
+			children = (
+				863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */,
+				863775EF2CD7CF0100D4F2D3 /* ContentView.swift */,
+				863775F12CD7CF0300D4F2D3 /* Assets.xcassets */,
+				863775F32CD7CF0300D4F2D3 /* Preview Content */,
+			);
+			path = "Miquido-TicketMaster";
+			sourceTree = "<group>";
+		};
+		863775F32CD7CF0300D4F2D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				863775F42CD7CF0300D4F2D3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		863775FD2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests */ = {
+			isa = PBXGroup;
+			children = (
+				863775FE2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift */,
+			);
+			path = "Miquido-TicketMasterTests";
+			sourceTree = "<group>";
+		};
+		863776072CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				863776082CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift */,
+				8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */,
+			);
+			path = "Miquido-TicketMasterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		863775E92CD7CF0100D4F2D3 /* Miquido-TicketMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8637760E2CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMaster" */;
+			buildPhases = (
+				863775E62CD7CF0100D4F2D3 /* Sources */,
+				863775E72CD7CF0100D4F2D3 /* Frameworks */,
+				863775E82CD7CF0100D4F2D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Miquido-TicketMaster";
+			productName = "Miquido-TicketMaster";
+			productReference = 863775EA2CD7CF0100D4F2D3 /* Miquido-TicketMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+		863775F92CD7CF0300D4F2D3 /* Miquido-TicketMasterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863776112CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMasterTests" */;
+			buildPhases = (
+				863775F62CD7CF0300D4F2D3 /* Sources */,
+				863775F72CD7CF0300D4F2D3 /* Frameworks */,
+				863775F82CD7CF0300D4F2D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863775FC2CD7CF0300D4F2D3 /* PBXTargetDependency */,
+			);
+			name = "Miquido-TicketMasterTests";
+			productName = "Miquido-TicketMasterTests";
+			productReference = 863775FA2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		863776032CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 863776142CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMasterUITests" */;
+			buildPhases = (
+				863776002CD7CF0300D4F2D3 /* Sources */,
+				863776012CD7CF0300D4F2D3 /* Frameworks */,
+				863776022CD7CF0300D4F2D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				863776062CD7CF0300D4F2D3 /* PBXTargetDependency */,
+			);
+			name = "Miquido-TicketMasterUITests";
+			productName = "Miquido-TicketMasterUITests";
+			productReference = 863776042CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		863775E22CD7CF0100D4F2D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					863775E92CD7CF0100D4F2D3 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					863775F92CD7CF0300D4F2D3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 863775E92CD7CF0100D4F2D3;
+					};
+					863776032CD7CF0300D4F2D3 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 863775E92CD7CF0100D4F2D3;
+					};
+				};
+			};
+			buildConfigurationList = 863775E52CD7CF0100D4F2D3 /* Build configuration list for PBXProject "Miquido-TicketMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 863775E12CD7CF0100D4F2D3;
+			productRefGroup = 863775EB2CD7CF0100D4F2D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				863775E92CD7CF0100D4F2D3 /* Miquido-TicketMaster */,
+				863775F92CD7CF0300D4F2D3 /* Miquido-TicketMasterTests */,
+				863776032CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		863775E82CD7CF0100D4F2D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863775F52CD7CF0300D4F2D3 /* Preview Assets.xcassets in Resources */,
+				863775F22CD7CF0300D4F2D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863775F82CD7CF0300D4F2D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863776022CD7CF0300D4F2D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		863775E62CD7CF0100D4F2D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863775F02CD7CF0100D4F2D3 /* ContentView.swift in Sources */,
+				863775EE2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863775F62CD7CF0300D4F2D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863775FF2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		863776002CD7CF0300D4F2D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				863776092CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift in Sources */,
+				8637760B2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		863775FC2CD7CF0300D4F2D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863775E92CD7CF0100D4F2D3 /* Miquido-TicketMaster */;
+			targetProxy = 863775FB2CD7CF0300D4F2D3 /* PBXContainerItemProxy */;
+		};
+		863776062CD7CF0300D4F2D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 863775E92CD7CF0100D4F2D3 /* Miquido-TicketMaster */;
+			targetProxy = 863776052CD7CF0300D4F2D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8637760C2CD7CF0300D4F2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8637760D2CD7CF0300D4F2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8637760F2CD7CF0300D4F2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Miquido-TicketMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		863776102CD7CF0300D4F2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Miquido-TicketMaster/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMaster";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		863776122CD7CF0300D4F2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miquido-TicketMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miquido-TicketMaster";
+			};
+			name = Debug;
+		};
+		863776132CD7CF0300D4F2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMasterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Miquido-TicketMaster.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Miquido-TicketMaster";
+			};
+			name = Release;
+		};
+		863776152CD7CF0300D4F2D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Miquido-TicketMaster";
+			};
+			name = Debug;
+		};
+		863776162CD7CF0300D4F2D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9GMKCF5AD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.michalkoks.Miquido-TicketMasterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Miquido-TicketMaster";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		863775E52CD7CF0100D4F2D3 /* Build configuration list for PBXProject "Miquido-TicketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8637760C2CD7CF0300D4F2D3 /* Debug */,
+				8637760D2CD7CF0300D4F2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8637760E2CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8637760F2CD7CF0300D4F2D3 /* Debug */,
+				863776102CD7CF0300D4F2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863776112CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMasterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863776122CD7CF0300D4F2D3 /* Debug */,
+				863776132CD7CF0300D4F2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		863776142CD7CF0300D4F2D3 /* Build configuration list for PBXNativeTarget "Miquido-TicketMasterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				863776152CD7CF0300D4F2D3 /* Debug */,
+				863776162CD7CF0300D4F2D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 863775E22CD7CF0100D4F2D3 /* Project object */;
+}
