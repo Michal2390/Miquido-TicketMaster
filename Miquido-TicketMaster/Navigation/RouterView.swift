@@ -7,12 +7,21 @@
 
 import SwiftUI
 
-struct RouterView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+struct RouterView<Content: View>: View {
+    @StateObject var router: Router = Router()
+    private let content: Content
+    
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content()
     }
-}
-
-#Preview {
-    RouterView()
+    
+    var body: some View {
+        NavigationStack(path: $router.path) {
+            content
+                .navigationDestination(for: Router.Route.self) { route in
+                    router.view(for: route)
+                }
+        }
+        .environmentObject(router)
+    }
 }

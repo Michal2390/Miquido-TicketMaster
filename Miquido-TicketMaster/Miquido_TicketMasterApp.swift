@@ -15,3 +15,13 @@ struct Miquido_TicketMasterApp: App {
         }
     }
 }
+
+struct ContentView: View {
+    var body: some View {
+        RouterView {
+            HomeView()
+        }
+    }
+}
+//my API key - TAGEemR66fnjzOSKeGibI0Q6SMT6c9G1
+

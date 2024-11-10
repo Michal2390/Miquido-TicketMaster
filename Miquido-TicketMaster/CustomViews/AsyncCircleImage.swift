@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct AsyncCircleImage: View {
+    let radius: Double
+    let imageURL: String?
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        if let imageURL = imageURL, let url = URL(string: imageURL) {
+            AsyncImage(url: url) { image in
+                image.resizable()
+                    .frame(width: radius * 2, height: radius * 2)
+                    .aspectRatio(contentMode: .fit)
+                    .clipShape(Circle())
+            } placeholder: {
+                ProgressView()
+                    .frame(width: radius * 2, height: radius * 2)
+            }
+        } else {
+            Circle()
+                .fill(Color.gray.opacity(0.3))
+                .frame(width: radius * 2, height: radius * 2)
+        }
     }
-}
-
-#Preview {
-    AsyncCircleImage()
 }

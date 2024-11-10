@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+enum NetworkError: Error {
+    case badURL
+    case invalidImageID(Int)
+    case decodingError
+}

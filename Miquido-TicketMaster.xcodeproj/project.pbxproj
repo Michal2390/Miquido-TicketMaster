@@ -8,12 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		863775EE2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */; };
-		863775F02CD7CF0100D4F2D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775EF2CD7CF0100D4F2D3 /* ContentView.swift */; };
 		863775F22CD7CF0300D4F2D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863775F12CD7CF0300D4F2D3 /* Assets.xcassets */; };
 		863775F52CD7CF0300D4F2D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 863775F42CD7CF0300D4F2D3 /* Preview Assets.xcassets */; };
 		863775FF2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863775FE2CD7CF0300D4F2D3 /* Miquido_TicketMasterTests.swift */; };
 		863776092CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 863776082CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift */; };
 		8637760B2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */; };
+		867C6FFD2CDEBC320084622C /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C6FFC2CDEBC320084622C /* Welcome.swift */; };
+		867C70002CDEBDB70084622C /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C6FFF2CDEBDB70084622C /* WebService.swift */; };
+		867C70022CDEBE790084622C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70012CDEBE790084622C /* Request.swift */; };
+		867C70042CDECDDE0084622C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70032CDECDDE0084622C /* HomeView.swift */; };
+		867C70072CDECE330084622C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70062CDECE330084622C /* Color.swift */; };
+		867C70092CDED1570084622C /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70082CDED1570084622C /* HomeViewModel.swift */; };
+		867C700C2CDED2E10084622C /* AsyncCircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C700B2CDED2E10084622C /* AsyncCircleImage.swift */; };
+		867C700F2CDED3270084622C /* EventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C700E2CDED3270084622C /* EventRowView.swift */; };
+		867C70122CDEE85A0084622C /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70112CDEE85A0084622C /* RouterView.swift */; };
+		867C70142CDEE8C10084622C /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 867C70132CDEE8C10084622C /* Router.swift */; };
+		868D17082CDDB5EC00094EBD /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D17072CDDB5EC00094EBD /* HTTPMethod.swift */; };
+		868D170B2CDDB65A00094EBD /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D170A2CDDB65A00094EBD /* AppConstants.swift */; };
+		868D170D2CDDB6A500094EBD /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D170C2CDDB6A500094EBD /* NetworkError.swift */; };
+		868D170F2CDDB6D200094EBD /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D170E2CDDB6D200094EBD /* NetworkResponse.swift */; };
+		868D17112CDDB73900094EBD /* StateStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868D17102CDDB73900094EBD /* StateStatus.swift */; };
+		868D17182CDDC04A00094EBD /* splash.png in Resources */ = {isa = PBXBuildFile; fileRef = 868D17172CDDC04A00094EBD /* splash.png */; };
+		868D171A2CDDC7ED00094EBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 868D17192CDDC7ED00094EBD /* LaunchScreen.storyboard */; };
+		86CA2E7E2CE0FAD800B291B0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CA2E7D2CE0FAD800B291B0 /* DetailsView.swift */; };
+		86CA2E852CE15F3B00B291B0 /* Mocker in Frameworks */ = {isa = PBXBuildFile; productRef = 86CA2E842CE15F3B00B291B0 /* Mocker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +54,6 @@
 /* Begin PBXFileReference section */
 		863775EA2CD7CF0100D4F2D3 /* Miquido-TicketMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Miquido-TicketMaster.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterApp.swift; sourceTree = "<group>"; };
-		863775EF2CD7CF0100D4F2D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		863775F12CD7CF0300D4F2D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		863775F42CD7CF0300D4F2D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		863775FA2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miquido-TicketMasterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +61,25 @@
 		863776042CD7CF0300D4F2D3 /* Miquido-TicketMasterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Miquido-TicketMasterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		863776082CD7CF0300D4F2D3 /* Miquido_TicketMasterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterUITests.swift; sourceTree = "<group>"; };
 		8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Miquido_TicketMasterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		867C6FFC2CDEBC320084622C /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		867C6FFF2CDEBDB70084622C /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		867C70012CDEBE790084622C /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		867C70032CDECDDE0084622C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		867C70062CDECE330084622C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		867C70082CDED1570084622C /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		867C700B2CDED2E10084622C /* AsyncCircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCircleImage.swift; sourceTree = "<group>"; };
+		867C700E2CDED3270084622C /* EventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRowView.swift; sourceTree = "<group>"; };
+		867C70112CDEE85A0084622C /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		867C70132CDEE8C10084622C /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		868D17072CDDB5EC00094EBD /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		868D170A2CDDB65A00094EBD /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		868D170C2CDDB6A500094EBD /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		868D170E2CDDB6D200094EBD /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
+		868D17102CDDB73900094EBD /* StateStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateStatus.swift; sourceTree = "<group>"; };
+		868D17172CDDC04A00094EBD /* splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash.png; sourceTree = "<group>"; };
+		868D17192CDDC7ED00094EBD /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86CA2E7D2CE0FAD800B291B0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		86CA2E812CE1147A00B291B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86CA2E852CE15F3B00B291B0 /* Mocker in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +131,19 @@
 		863775EC2CD7CF0100D4F2D3 /* Miquido-TicketMaster */ = {
 			isa = PBXGroup;
 			children = (
+				86CA2E812CE1147A00B291B0 /* Info.plist */,
 				863775ED2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift */,
-				863775EF2CD7CF0100D4F2D3 /* ContentView.swift */,
+				867C70102CDEE8430084622C /* Navigation */,
+				867C70052CDECE180084622C /* Extensions */,
+				867C6FFE2CDEBDAA0084622C /* Services */,
+				868D17122CDDBFB500094EBD /* Features */,
+				868D17092CDDB65000094EBD /* Utils */,
+				868D17062CDDB52900094EBD /* Models */,
+				867C700A2CDED2B00084622C /* CustomViews */,
 				863775F12CD7CF0300D4F2D3 /* Assets.xcassets */,
+				868D17172CDDC04A00094EBD /* splash.png */,
 				863775F32CD7CF0300D4F2D3 /* Preview Content */,
+				868D17192CDDC7ED00094EBD /* LaunchScreen.storyboard */,
 			);
 			path = "Miquido-TicketMaster";
 			sourceTree = "<group>";
@@ -125,6 +171,95 @@
 				8637760A2CD7CF0300D4F2D3 /* Miquido_TicketMasterUITestsLaunchTests.swift */,
 			);
 			path = "Miquido-TicketMasterUITests";
+			sourceTree = "<group>";
+		};
+		867C6FFE2CDEBDAA0084622C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				867C6FFF2CDEBDB70084622C /* WebService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		867C70052CDECE180084622C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				867C70062CDECE330084622C /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		867C700A2CDED2B00084622C /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				867C700B2CDED2E10084622C /* AsyncCircleImage.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		867C700D2CDED3180084622C /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				867C700E2CDED3270084622C /* EventRowView.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
+		867C70102CDEE8430084622C /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				867C70112CDEE85A0084622C /* RouterView.swift */,
+				867C70132CDEE8C10084622C /* Router.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		868D17062CDDB52900094EBD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				868D17072CDDB5EC00094EBD /* HTTPMethod.swift */,
+				867C6FFC2CDEBC320084622C /* Welcome.swift */,
+				867C70012CDEBE790084622C /* Request.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		868D17092CDDB65000094EBD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				868D170A2CDDB65A00094EBD /* AppConstants.swift */,
+				868D170C2CDDB6A500094EBD /* NetworkError.swift */,
+				868D170E2CDDB6D200094EBD /* NetworkResponse.swift */,
+				868D17102CDDB73900094EBD /* StateStatus.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		868D17122CDDBFB500094EBD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				868D17132CDDBFC600094EBD /* Home */,
+				868D17142CDDBFD700094EBD /* Details */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		868D17132CDDBFC600094EBD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				867C700D2CDED3180084622C /* SubViews */,
+				867C70032CDECDDE0084622C /* HomeView.swift */,
+				867C70082CDED1570084622C /* HomeViewModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		868D17142CDDBFD700094EBD /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				86CA2E7D2CE0FAD800B291B0 /* DetailsView.swift */,
+			);
+			path = Details;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +296,9 @@
 				863775FC2CD7CF0300D4F2D3 /* PBXTargetDependency */,
 			);
 			name = "Miquido-TicketMasterTests";
+			packageProductDependencies = (
+				86CA2E842CE15F3B00B291B0 /* Mocker */,
+			);
 			productName = "Miquido-TicketMasterTests";
 			productReference = 863775FA2CD7CF0300D4F2D3 /* Miquido-TicketMasterTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +353,9 @@
 				Base,
 			);
 			mainGroup = 863775E12CD7CF0100D4F2D3;
+			packageReferences = (
+				86CA2E832CE15F3B00B291B0 /* XCRemoteSwiftPackageReference "Mocker" */,
+			);
 			productRefGroup = 863775EB2CD7CF0100D4F2D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +373,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				863775F52CD7CF0300D4F2D3 /* Preview Assets.xcassets in Resources */,
+				868D171A2CDDC7ED00094EBD /* LaunchScreen.storyboard in Resources */,
+				868D17182CDDC04A00094EBD /* splash.png in Resources */,
 				863775F22CD7CF0300D4F2D3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +400,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				863775F02CD7CF0100D4F2D3 /* ContentView.swift in Sources */,
+				867C6FFD2CDEBC320084622C /* Welcome.swift in Sources */,
+				867C700C2CDED2E10084622C /* AsyncCircleImage.swift in Sources */,
 				863775EE2CD7CF0100D4F2D3 /* Miquido_TicketMasterApp.swift in Sources */,
+				867C70072CDECE330084622C /* Color.swift in Sources */,
+				867C70022CDEBE790084622C /* Request.swift in Sources */,
+				868D17082CDDB5EC00094EBD /* HTTPMethod.swift in Sources */,
+				867C70122CDEE85A0084622C /* RouterView.swift in Sources */,
+				868D170B2CDDB65A00094EBD /* AppConstants.swift in Sources */,
+				868D170D2CDDB6A500094EBD /* NetworkError.swift in Sources */,
+				867C70142CDEE8C10084622C /* Router.swift in Sources */,
+				86CA2E7E2CE0FAD800B291B0 /* DetailsView.swift in Sources */,
+				867C700F2CDED3270084622C /* EventRowView.swift in Sources */,
+				867C70092CDED1570084622C /* HomeViewModel.swift in Sources */,
+				868D170F2CDDB6D200094EBD /* NetworkResponse.swift in Sources */,
+				867C70042CDECDDE0084622C /* HomeView.swift in Sources */,
+				867C70002CDEBDB70084622C /* WebService.swift in Sources */,
+				868D17112CDDB73900094EBD /* StateStatus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,11 +583,13 @@
 				DEVELOPMENT_TEAM = Q9GMKCF5AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Miquido-TicketMaster/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +614,13 @@
 				DEVELOPMENT_TEAM = Q9GMKCF5AD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Miquido-TicketMaster/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -588,6 +750,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		86CA2E832CE15F3B00B291B0 /* XCRemoteSwiftPackageReference "Mocker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WeTransfer/Mocker";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		86CA2E842CE15F3B00B291B0 /* Mocker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 86CA2E832CE15F3B00B291B0 /* XCRemoteSwiftPackageReference "Mocker" */;
+			productName = Mocker;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 863775E22CD7CF0100D4F2D3 /* Project object */;
 }

@@ -6,13 +6,16 @@
 //
 
 import SwiftUI
+import Foundation
 
-struct Color: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+extension Color {
+    static let theme = ColorTheme()
 }
 
-#Preview {
-    Color()
+struct ColorTheme {
+    let accent = Color("AccentColor")
+    let background = AngularGradient(gradient: Gradient(colors: [.green.opacity(0.1), Color.blue]), center: .topTrailing)
+    let green = Color("GreenColor")
+    let red = Color("RedColor")
+    let secondaryText = Color("SecondaryTextColor")
 }
